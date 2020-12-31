@@ -1,0 +1,193 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) {/*--- Mobile portrait ---*/}
+@media only screen and (min-width : 480px) and (max-width : 595px) {/*--- Mobile landscape ---*/}
+@media only screen and (min-width : 595px) and (max-width : 690px) {/*--- Small tablet portrait ---*/}
+@media only screen and (min-width : 690px) and (max-width : 800px) {/*--- Tablet portrait ---*/}
+@media only screen and (min-width : 800px) and (max-width : 1024px) {/*--- Small tablet landscape ---*/}
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {/*--- Tablet landscape --- */}
+
+
+
+:root {
+  --themeColor: #E54B4B;
+  --transition: all 0.3s ease-in-out;
+  --boxShadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  --link-text-size:0.813rem;
+  --link-color: #334141;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width:767px) {
+	.star-top::before {
+	width: 2px;
+	left: 1%;
+}
+.work-details {
+	
+	margin-left: 20px;
+}
+.nav-social-link {
+	display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #FFF;
+}
+.collapse:not(.show) {
+	display: block;
+	background: #040213;
+	padding: 20px;
+	position: fixed;
+	top: -9px;
+	left: -275px;
+	width: 275px;
+	height: 100vh;
+	z-index: 99;
+	transition: var(--transition);
+}
+.portfolio-nav ul li {
+	display: block;
+	margin-bottom: 10px;
+}
+.three-bar {
+	margin-top: -32px;
+}
+.nav-logo a {
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+	color: #000000;
+	margin-top: 8px;
+}
+.hero-content-area::before {
+	position: absolute;
+	content: "";
+	background: #202647a6;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.hero-text-content-wrapper h6 {
+	color: #FFF;
+}
+.hero-text-content-wrapper p {
+	color: #FFF;
+}
+.counter-area {
+	height: auto;
+}
+.star-top {
+	text-align: left;
+}
+.star-top i {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.star-top i::before {
+	margin-left: 4px;
+	font-size: 16px;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width:500px) {
+	.tab-nav ul li a {
+	width: 125px;
+	height: 31px;
+	margin-bottom: 0px;
+	font-size: 8px;
+}
+.single-progressbar span {
+	font-size: 12px;
+}
+.single-progressbar {
+	margin-top: -18px;
+}
+ .single-progressbar .proggress {
+	height: 4px;
+	width: 10px;
+	background-color: #ff0;
+}
+.common-button {
+	padding: 6px 30px;
+	font-size: 11px;
+}
+.section-title p {
+	font-size: 10px;
+}
+.single-counter-wrapper h4 {
+	font-size: 20px;
+}
+  
+}
+/* Extra small devices (phones, 600px and down) */
+@media  (max-width: 360px) {
+	
+
+}
+@media (min-width: 768px) and (max-width: 991px)  {
+  .nav-social-link {
+	display: none;
+}
+.collapse:not(.show) {
+	display: block;
+	background: #040213;
+	padding: 20px;
+	position: fixed;
+	top: -9px;
+	left: -275px;
+	width: 275px;
+	height: 100vh;
+	z-index: 99;
+	transition: var(--transition);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #FFF;
+}
+.collapse:not(.show) .nav-link {
+	color: #FFF;
+}
+.single-hobby span {
+	font-size: 12px;
+}
+.hobby-icon i::before {
+	font-size: 16px;
+}
+.hobby-icon {
+	padding: 10px 15px;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .menu-toggle-control {
+	width: 100%;
+	display: none;
+}
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+  .single-product-view-slider-wrapper.owl-theme .owl-dots .owl-dot {
+	width: 65px;
+	margin: 4px;
+	height: 65px;
+}
+.slide-dots-img-wrapper ul li img {
+	width: 57px;
+	margin-top: -6px;
+}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1480px) {
+  .container {
+    max-width: 1430px;
+  }
+  .single-left {
+	margin-left: 365px;
+}
+}
